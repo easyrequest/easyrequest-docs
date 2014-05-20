@@ -18,34 +18,34 @@
    * 类型: string
    * 必选: false
    * 可选值: cityblock \ cosine \ euclidean \ loglikelihood \ pearson \ tanimoto
-   * 描述: userbased和itembased算法使用的度量方法。
+   * 描述: userbased和itembased算法使用的度量方法
 * k
    * 类型: int
    * 必选: false
    * 最大值: 100
-   * 描述: 生成推荐结果时最大的可推荐个数。
+   * 描述: 生成推荐结果时最大的可推荐个数
 * features
    * 类型: int
    * 必选: false
    * 最大值: 100
-   * 描述: als算法特有参数（引擎维度）。
+   * 描述: als算法特有参数（引擎维度）
 * iterations
    * 类型: int
    * 必选: false
    * 最大值: 50
-   * 描述: als算法特有参数（迭代次数）。
+   * 描述: als算法特有参数（迭代次数）
 * lambda
    * 类型: float
    * 必选: false
-   * 描述: als算法特有参数（regularization parameter）。
+   * 描述: als算法特有参数（regularization parameter）
 * alpha
    * 类型: float
    * 必选: false
-   * 描述: als算法特有参数（confidence parameter）。
+   * 描述: als算法特有参数（confidence parameter）
 * maxrating
    * 类型: float
    * 必选: false
-   * 描述: als算法特有参数（available rating）。
+   * 描述: als算法特有参数（available rating）
 
 #### 返回方式:
 * JSON   
